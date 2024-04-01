@@ -6,7 +6,7 @@ import { CommonModule } from "@angular/common";
     standalone: true, // con questa proprietá su true, diciao che il componente é a se stante;
     imports: [CommonModule], // la proprietá imports ci permette di importare altri componenti o servizi come quelli che sono in alto "CommonModule etc"
     templateUrl: './landingPage.component.html', // questa prorpietá puo chiamarsi template dove all'interno scriviamo il codice HTML direttamente, oppure puó chiamarsi templateUrl, dove assegniamo il percorso del file html del componente
-    styleUrls: ['./landingPage.component.scss']
+    styleUrls: ['./landingPage.component.scss'],
 })
 export class LandingPageComponent {   // per rendere questa classe sempre accesibile, anche dagli altri componenti si usa export
 
