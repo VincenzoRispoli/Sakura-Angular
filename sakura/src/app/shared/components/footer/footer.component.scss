@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px;
+    background: #000;
+
+    >img {
+        height: 64px;
+        object-fit: cover;
+    }
+
+    >div {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    >a{
+        text-decoration: none;
+        color: #fff;
+    }
+}

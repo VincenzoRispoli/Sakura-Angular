@@ -1,0 +1,48 @@
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    background-image: url('../../../assets/img/our-menu-bg.jpg');
+
+    >h2 {
+        font-size: 80px;
+        color: red;
+        text-align: center;
+    }
+}
+
+.tankotsu-ramen-mediatext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+    >img {
+        height: 352px;
+        object-fit: cover;
+    }
+}
+
+.spicy-miso-mediatext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+    >img {
+        height: 352px;
+        object-fit: cover;
+    }
+}
+
+.shio-ramen-mediatext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+    >img {
+        height: 352px;
+        object-fit: cover;
+    }
+}
